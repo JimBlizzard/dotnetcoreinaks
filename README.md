@@ -2,7 +2,13 @@
 
 The App is based on [MiniBlog.Core by Mads Kristensen](https://github.com/madskristensen/Miniblog.Core)
 
-For now I'll document my efforts along the way, here in the MD file. Once I get the engine up & running in AKS I'll start documenting things there. 
+The ultimate goal is to 
+1. Run Miniblog.Core safely and securely in AKS. (All proper network / security / healt checks / secrets management / yada yada yada) in place.
+1. Deploy updates to the engine in AKS through GitHub CI/CD pipelines, which will include container scans, etc., using blue/green pattern. 
+1. The Docker image will be stored in the Azure Container Registry.
+1. And other things. . . 
+
+For now I'll document my efforts along the way here in the MD file. Once I get the engine up & running in AKS I'll start documenting things there. 
 
 ## prerequisites
 
@@ -14,5 +20,6 @@ I also have [Docker Desktop](https://docs.docker.com/docker-for-windows/install/
 And I'm using Linux containers, not Windows Containers.
 
 ## the app
+
 I cloned the Miniblog.Core repo from  https://github.com/madskristensen/Miniblog.Core.git
 
