@@ -1,4 +1,4 @@
-namespace Miniblog.Core.Models
+namespace miniblog.Models
 {
     using System;
     using System.ComponentModel.DataAnnotations;

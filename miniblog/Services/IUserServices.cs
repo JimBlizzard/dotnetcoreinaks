@@ -1,4 +1,4 @@
-namespace Miniblog.Core.Services
+namespace miniblog.Services
 {
     public interface IUserServices
     {

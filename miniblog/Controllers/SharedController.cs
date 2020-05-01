@@ -1,4 +1,4 @@
-namespace Miniblog.Core.Controllers
+namespace miniblog.Controllers
 {
     using Microsoft.AspNetCore.Mvc;
 

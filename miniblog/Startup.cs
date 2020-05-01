@@ -1,4 +1,4 @@
-namespace Miniblog.Core
+namespace miniblog
 {
     using Microsoft.AspNetCore.Authentication.Cookies;
     using Microsoft.AspNetCore.Builder;
@@ -9,7 +9,7 @@ namespace Miniblog.Core
     using Microsoft.Extensions.DependencyInjection.Extensions;
     using Microsoft.Extensions.Hosting;
 
-    using Miniblog.Core.Services;
+    using miniblog.Services;
 
     using WebEssentials.AspNetCore.OutputCaching;
 
@@ -19,7 +19,7 @@ namespace Miniblog.Core
     using WilderMinds.MetaWeblog;
 
     using IWmmLogger = WebMarkupMin.Core.Loggers.ILogger;
-    using MetaWeblogService = Miniblog.Core.Services.MetaWeblogService;
+    using MetaWeblogService = miniblog.Services.MetaWeblogService;
     using WmmNullLogger = WebMarkupMin.Core.Loggers.NullLogger;
 
     public class Startup

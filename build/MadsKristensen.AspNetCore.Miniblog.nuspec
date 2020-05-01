@@ -2,20 +2,20 @@
 <package>
   <metadata>
     <id>MadsKristensen.AspNetCore.Miniblog</id>
-    <title>Miniblog.Core</title>
+    <title>miniblog</title>
     <summary>A high-performance blog web site using ASP.NET Core MVC and the latest in client-side technologies.</summary>
     <version>1.0.3</version>
     <description>A high-performance blog web site using ASP.NET Core MVC and the latest in client-side technologies.</description>
     <authors>Mads Kristensen</authors>
-    <projectUrl>https://github.com/madskristensen/Miniblog.Core</projectUrl>
+    <projectUrl>https://github.com/madskristensen/miniblog</projectUrl>
     <tags>asp.net core .net template</tags>
-    <iconUrl>https://raw.githubusercontent.com/madskristensen/Miniblog.Core/master/src/.template.config/icon.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/madskristensen/miniblog/master/src/.template.config/icon.png</iconUrl>
     <packageTypes>
       <packageType name="Template" />
     </packageTypes>
   </metadata>
 
   <files>
-    <file src="..\src\**\*.*" exclude="**\bin\**\*;**\obj\**\*;properties\**\*;**/*.user" target="content\Miniblog.Core" />
+    <file src="..\src\**\*.*" exclude="**\bin\**\*;**\obj\**\*;properties\**\*;**/*.user" target="content\miniblog" />
   </files>
 </package>

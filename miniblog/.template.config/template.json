@@ -1,10 +1,10 @@
 {
   "author": "Mads Kristensen",
   "classifications": [ "Web", "MVC" ],
-  "name": "Miniblog.Core",
+  "name": "miniblog",
   "defaultName": "WebApplication1",
-  "identity": "madsk.miniblog.core",
-  "groupIdentity": "madsk.miniblog.core",
+  "identity": "madsk.miniblog",
+  "groupIdentity": "madsk.miniblog",
   "shortName": "miniblog",
   "sources": [
     {
@@ -15,9 +15,9 @@
     "language": "C#",
     "type": "project"
   },
-  "sourceName": "Miniblog.Core",
+  "sourceName": "miniblog",
   "preferNameDirectory": true,
-  "primaryOutputs": [ { "path": "Miniblog.Core.csproj" } ],
+  "primaryOutputs": [ { "path": "miniblog.csproj" } ],
   "symbols": {
     "Framework": {
       "type": "parameter",

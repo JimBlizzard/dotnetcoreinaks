@@ -1,4 +1,4 @@
-namespace Miniblog.Core.Controllers
+namespace miniblog.Controllers
 {
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.Extensions.Options;
@@ -6,7 +6,7 @@ namespace Miniblog.Core.Controllers
     using Microsoft.SyndicationFeed.Atom;
     using Microsoft.SyndicationFeed.Rss;
 
-    using Miniblog.Core.Services;
+    using miniblog.Services;
 
     using System;
     using System.Globalization;
@@ -63,8 +63,8 @@ namespace Miniblog.Core.Controllers
 
             xml.WriteStartElement("service");
 
-            xml.WriteElementString("enginename", "Miniblog.Core");
-            xml.WriteElementString("enginelink", "http://github.com/madskristensen/Miniblog.Core/");
+            xml.WriteElementString("enginename", "miniblog");
+            xml.WriteElementString("enginelink", "http://github.com/madskristensen/miniblog/");
             xml.WriteElementString("homepagelink", host);
 
             xml.WriteStartElement("apis");
@@ -154,7 +154,7 @@ namespace Miniblog.Core.Controllers
                 var rss = new RssFeedWriter(xmlWriter);
                 await rss.WriteTitle(this.manifest.Name).ConfigureAwait(false);
                 await rss.WriteDescription(this.manifest.Description).ConfigureAwait(false);
-                await rss.WriteGenerator("Miniblog.Core").ConfigureAwait(false);
+                await rss.WriteGenerator("miniblog").ConfigureAwait(false);
                 await rss.WriteValue("link", host).ConfigureAwait(false);
                 return rss;
             }
@@ -163,7 +163,7 @@ namespace Miniblog.Core.Controllers
             await atom.WriteTitle(this.manifest.Name).ConfigureAwait(false);
             await atom.WriteId(host).ConfigureAwait(false);
             await atom.WriteSubtitle(this.manifest.Description).ConfigureAwait(false);
-            await atom.WriteGenerator("Miniblog.Core", "https://github.com/madskristensen/Miniblog.Core", "1.0").ConfigureAwait(false);
+            await atom.WriteGenerator("miniblog", "https://github.com/madskristensen/miniblog", "1.0").ConfigureAwait(false);
             await atom.WriteValue("updated", updated.ToString("yyyy-MM-ddTHH:mm:ssZ", CultureInfo.InvariantCulture)).ConfigureAwait(false);
             return atom;
         }

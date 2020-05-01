@@ -50,7 +50,7 @@
 
     <main itemprop="mainEntity" itemscope itemtype="http://schema.org/Blog" role="main">
         <noscript>
-            <p class="container">@Miniblog.Core.Properties.Resources.SomeFeaturesOfThisWebsiteDoNotWorkAsExpectedWhenJavaScriptIsDisabled</p>
+            <p class="container">@miniblog.Properties.Resources.SomeFeaturesOfThisWebsiteDoNotWorkAsExpectedWhenJavaScriptIsDisabled</p>
         </noscript>
         @RenderBody()
     </main>
@@ -64,18 +64,18 @@
 
                         if (User.Identity.IsAuthenticated)
                         {
-                            <li><a asp-controller="Blog" asp-action="Edit" asp-route-id="">@Miniblog.Core.Properties.Resources.NewPost</a></li>
-                            <li><a href="~/logout/" title="@Miniblog.Core.Properties.Resources.SignOutAsAdministrator">@Miniblog.Core.Properties.Resources.SignOut</a></li>
+                            <li><a asp-controller="Blog" asp-action="Edit" asp-route-id="">@miniblog.Properties.Resources.NewPost</a></li>
+                            <li><a href="~/logout/" title="@miniblog.Properties.Resources.SignOutAsAdministrator">@miniblog.Properties.Resources.SignOut</a></li>
                         }
                         else
                         {
-                            <li><a href="~/login/?returnUrl=@path" rel="nofollow" title="@Miniblog.Core.Properties.Resources.SignInAsAdministrator">@Miniblog.Core.Properties.Resources.SignIn</a></li>
+                            <li><a href="~/login/?returnUrl=@path" rel="nofollow" title="@miniblog.Properties.Resources.SignInAsAdministrator">@miniblog.Properties.Resources.SignIn</a></li>
                         }
                     }
                 </ul>
             </nav>
             <p>
-                @Miniblog.Core.Properties.Resources.PoweredBy <a href="https://github.com/madskristensen/Miniblog.Core" rel="noopener noreferrer" target="_blank">@Miniblog.Core.Properties.Resources.MiniblogCore</a>
+                @miniblog.Properties.Resources.PoweredBy <a href="https://github.com/madskristensen/miniblog" rel="noopener noreferrer" target="_blank">@miniblog.Properties.Resources.MiniblogCore</a>
             </p>
         </div>
     </footer>

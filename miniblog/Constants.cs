@@ -1,4 +1,4 @@
-namespace Miniblog.Core
+namespace miniblog
 {
     using System.Diagnostics.CodeAnalysis;
 

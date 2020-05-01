@@ -14,7 +14,7 @@ Password: *demo*
 ![Editor](art/editor.png)
 
 ### Custom themes
-In search for custom designed themes for MiniBlog.Core? [Click here](https://francis.bio/miniblog-themes/).
+In search for custom designed themes for miniblog? [Click here](https://francis.bio/miniblog-themes/).
 
 ## Features
 - Windows/Open Live Writer support

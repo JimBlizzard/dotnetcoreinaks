@@ -1,8 +1,8 @@
-namespace Miniblog.Core.Services
+namespace miniblog.Services
 {
     using Microsoft.AspNetCore.Http;
 
-    using Miniblog.Core.Models;
+    using miniblog.Models;
 
     using System;
     using System.Collections.Generic;

@@ -1,4 +1,4 @@
-namespace Miniblog.Core.Services
+namespace miniblog.Services
 {
     using Microsoft.AspNetCore.Authentication.Cookies;
     using Microsoft.AspNetCore.Http;

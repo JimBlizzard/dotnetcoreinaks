@@ -1,4 +1,4 @@
-namespace Miniblog.Core
+namespace miniblog
 {
     public class BlogSettings
     {
