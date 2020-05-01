@@ -23,3 +23,6 @@ And I'm using Linux containers, not Windows Containers.
 
 I cloned the Miniblog.Core repo from  https://github.com/madskristensen/Miniblog.Core.git
 
+### 2020.05.01
+
+The code that I've pushed to GitHub already has the changes that I made to get it to run in a Docker container on my local machine. I'll go back and document the steps that I took and the "fun" I had along the way and post my notes here for now.
