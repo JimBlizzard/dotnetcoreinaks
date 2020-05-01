@@ -6,12 +6,12 @@ For now I'll document my efforts along the way, here in the MD file. Once I get 
 
 ## prerequisites
 
-I installed Ubuntu in WSL (Windows Subsystem for Linux) on Windows 10. 
+I'm running Ubuntu in WSL (Windows Subsystem for Linux) on Windows 10. 
 https://docs.microsoft.com/en-us/windows/wsl/install-win10
 
-I also installed [Docker Desktop](https://docs.docker.com/docker-for-windows/install/). It includes the Docker Engine, Cli client, Kubernetes, etc. 
+I also have [Docker Desktop](https://docs.docker.com/docker-for-windows/install/). It includes the Docker Engine, Cli client, Kubernetes, etc. 
 
-For this effort I'm using Linux containers, not Windows Containers.
+And I'm using Linux containers, not Windows Containers.
 
 ## the app
 I cloned the Miniblog.Core repo from  https://github.com/madskristensen/Miniblog.Core.git
