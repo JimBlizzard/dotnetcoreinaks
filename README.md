@@ -4,7 +4,7 @@ The App is based on [MiniBlog.Core by Mads Kristensen](https://github.com/madskr
 
 For now I'll document my efforts along the way, here in the MD file. Once I get the engine up & running in AKS I'll start documenting things there. 
 
-## pre-requisites
+## prerequisites
 
 I installed Ubuntu in WSL (Windows Subsystem for Linux) on Windows 10. 
 https://docs.microsoft.com/en-us/windows/wsl/install-win10
